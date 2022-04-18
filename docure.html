@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="docure.css">
     <link rel="stylesheet" href="all.min.css">
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"> -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Docure replica</title>
 </head>
 <body>
-<nav>
-<div class="nav-container">
-    <div class="nav-logo">
-<img src="photos/doccure.png" alt="">
+<header class="header-container">
+    <div class="logo">
+        <img src="photos/doccure.png" alt="text-image">
     </div>
-    <div class="nav-right">
+    <nav class="nav-list">
          <ul class="nav-item">
             <li class="items">home</li>
             <li class="items">doctors</li>
@@ -26,31 +24,28 @@
             <li class="items">blog</li>
             <li class="items">admin</li>
         </ul>
-        <div class="nav-contacts">      
-            <i class="fa fa-h-square hospital" aria-hidden="true"></i>
-            <div>
+    </nav>
+    <div class="header-contacts">
+             <i class="fa fa-h-square" aria-hidden="true"></i>
+            <address>
                 <h4>contact</h4>  
-            <i>+1 315 369 5943</i>  
-            </div>
+                <i>+1 315 369 5943</i>  
+            </address>
             <div class="ryt-list">
                 <button class="nav-button">
                   <span>LOGIN</span>/<span>SIGNUP</span> 
                 </button>
             </div>
-         </div>
     </div>
-</div>
-    </nav>
-    <header>
-    <div class="header-container">
-        <div class="image-wrapper">
-        <div class="header-wrapper">
-            <div class="header-upper">
-                <h2 class="heading">search doctor, make an appointment</h2>
-                <p class="doc">discover the best doctors, clinic and hospital in city nearest to you.</p>
-            
-            </div>
-            <div class="header-lower">
+
+</header>
+<main>
+    <section class="first-section">
+        <div class="apointment-heading">
+            <h2 class="heading">search doctor, make an appointment</h2>
+            <p class="doc">discover the best doctors, clinic and hospital in city nearest to you.</p> 
+        </div>
+        <div class="apointment-buttons">
                 <div>
                 <input class="search" type="text" placeholder="search location"/>
                 <p>based on your location</p>
@@ -64,37 +59,25 @@
                         <i class="fa fa-search search-icon" aria-hidden="true"></i>
                     </button>
                 </div>
-            </div>
         </div>
-        </div>
-    </div>
-    </header>
-    <main>
-          <div class="middle">
-              <div class="middle-header">
-                  <h2 class="middle-heading">what are you looking for?</h2>
-            </div>
-            <div class="middle-wrapper">
-            <div class="doctor">
-                <div class="inner-wrapper">
-                <h2>Visit a Doctor</h2>
-                <div class="inner-button">book now</div>
-            </div>
-            </div>
-            <div class="pharmacy">
-                <div class="inner-wrapper">
-                <h2>Find a Pharmacy</h2>
-                <div class="inner-button">find now</div>
-            </div>
-            </div>
-            <div class="lab">
-                <div class="inner-wrapper">   
-                <h2>Find a Lab</h2>
-                <div class="inner-button">coming soon</div>
-            </div>
-            </div>
-        </div>
-          </div>  
+    </section>
+    
+    <section class="second-section">
+                  <h2 class="section-heading">what are you looking for?</h2>
+            <div class="section-box">
+                <div class="doctor">
+                    <h2 class="doc-heading">Visit a Doctor</h2>
+                    <div class="inner-button">book now</div>
+                </div>
+                <div class="pharmarcy">
+                    <h2 class="doc-heading">Find a pharmarcy</h2>
+                    <div class="inner-button">find now</div>
+                </div>
+                <div class="doctor">
+                    <h2 class="doc-heading">Find a Lab</h2>
+                    <div class="inner-button">coming soon</div>
+                </div>
+            </div>  
         <div class="clinic-container">
             <div class="clinic-header">
                 <h2 class="clinic-heading">clinic and specialities</h2>
@@ -238,7 +221,7 @@
      <button class="view-button">View All</button>
  </div>
 </div>
-    </main>
+</main>
     <footer>
         <div class="footer-wrapper">
         <div class="footer-upper">
