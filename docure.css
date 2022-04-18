@@ -142,12 +142,60 @@ background-color: #09e5ab;
         position: relative;
  
 }
+.doc-heading{
+    color: #fff;
+    text-align: center;
+    font-weight: 600; 
+    font-size: 23px;
+    padding: 15px 0;
+    position: absolute;
+    top: 22%;
+    right: 23%;
+}
+.doc-button{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #0de0fe;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background-color: #0de0fe;
+    position: absolute;
+    bottom: 31%;
+    right: 30%;
+}
 .pharmacy{
     background:url('./photos/79d957d6f7a3d418fabc28ed931b826e.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+}
+.pharmacy-heading{
+    color: #fff;
+    text-align: center;
+    font-weight: 600; 
+    font-size: 23px;
+    padding: 15px 0;
+    position: absolute;
+    top: 22%;
+    right: 23%;
+}
+.pharmacy-button{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #0de0fe;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background-color: #0de0fe;
+    position: absolute;
+    bottom: 31%;
+    right: 36%;
 }
 .lab{
     background:url('./photos/44469c520985bf4c75e1448603d4a8b1.jpg');
@@ -156,31 +204,31 @@ background-color: #09e5ab;
     background-repeat: no-repeat;
         position: relative;
 }
-.doc-heading{
+.lab-heading{
     color: #fff;
     text-align: center;
-    text-transform: capitalize;
     font-weight: 600; 
     font-size: 23px;
     padding: 15px 0;
     position: absolute;
-    top: 22%;
-    right: 23%;
+    top: 24%;
+    right: 31%;
 }
-.inner-button{
+.lab-button{
     color: #fff;
     text-align: center;
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 500;
+    border: 1px solid #0de0fe;
     border-radius: 4px;
-    padding: 10px;
+    padding: 8px 10px;
     background-color: #0de0fe;
     position: absolute;
     bottom: 31%;
-    right: 30%;
+    right: 28%;
 }
-.clinic-container{
+.third-section{
     position: relative;
     padding: 80px;
 }
@@ -188,11 +236,14 @@ background-color: #09e5ab;
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 100px;
-    /* position: absolute; */
+    position: absolute;
+    top: 50%;
+    right: 50%;
 }
 .clinic-heading{
     font-size: 40px;
     font-weight: 500;
+    /* position: absolute; */
 }
 .clinic-headtext{
     font-size: 17px;
@@ -212,6 +263,7 @@ background-color: #09e5ab;
     position: relative;
 }
 .urology{
+    border: 1px solid black;
     background: url('./download.png');
     background-size: 60px;
     background-position: center center;
@@ -288,7 +340,7 @@ position: relative;
 .ruby-image{
     height: 174px;
     width: 100%;
-    background: url('./682de2bf54ac3d17d1f6c35e7c704425.jpg');
+    background: url('./photos/682de2bf54ac3d17d1f6c35e7c704425.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -303,7 +355,7 @@ position: relative;
     width: 40px;
     border-radius: 50%;
     border: 1px solid black;
-    background: url('./210634dca875b5880520c51b4577e6aa.jpg');
+    background: url('./photos/210634dca875b5880520c51b4577e6aa.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
