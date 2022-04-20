@@ -322,7 +322,7 @@ background-color: #09e5ab;
 .forth-content{
     font-size: 14px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 2.2;
 }
 
 .read-button{
@@ -516,17 +516,67 @@ position: relative;
     background-position: center center;
     background-repeat: no-repeat;
 }
+.darren-image{
+    height: 174px;
+    width: 100%;
+    background: url('./photos/105e9ea3d160b87f2b67956c72dcf082.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.angel-image{
+    height: 174px;
+    width: 100%;
+    background: url('./photos/13f14d543c4baa3ebbcae97e52c93e77.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sofia-image{
+    height: 174px;
+    width: 100%;
+    background: url('./photos/bb83a25e4f55ebeaa704d765f6aa0b12.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .profile-wrapper{
     display: flex;
     align-items: center;
     padding: 20px 0;
 }
-.profile-image{
+.ruby-profile{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 1px solid black;
     background: url('./photos/210634dca875b5880520c51b4577e6aa.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.darren-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url('./photos/4c4edf4d3fc07e7acd8f249becdbcc04.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.angel-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url('./photos/bb83a25e4f55ebeaa704d765f6aa0b12.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sofia-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url('./photos/7058680646be673ef70f79e43f408408.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
