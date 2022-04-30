@@ -7,42 +7,68 @@
     <link rel="stylesheet" href="docure.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-      <link rel="stylesheet" href="all.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="all.min.css"/>
 
     <title>Docure prototype</title>
 </head>
 <body>
+    <!-- ======NAV BAR======= -->
 <header class="header-container">
     <div class="logo">
         <img src="photos/doccure.png" alt="text-image">
     </div>
     <nav class="nav-list">
          <ul class="nav-item">
-            <li class="items">home</li>
-            <li class="items">doctors</li>
-            <li class="items">patients</li>
-            <li class="items">pharmarcy</li>
-            <li class="items">pages</li>
-            <li class="items">blog</li>
-            <li class="items">admin</li>
+            <li class="items">
+                home
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
+            <li class="items">
+                doctors
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
+            <li class="items">
+                patients
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
+            <li class="items">
+                pharmarcy
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
+            <li class="items">
+                pages
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
+            <li class="items">
+                blog
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
+            <li class="items">
+                admin
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </li>
         </ul>
     </nav>
     <div class="header-contacts">
-             <i class="fa fa-h-square" aria-hidden="true"></i>
-            <address>
-                <h4>contact</h4>  
-                <i>+1 315 369 5943</i>  
-            </address>
-            <div class="ryt-list">
+        <i id="hospital-icon" class="fa fa-h-square" aria-hidden="true"></i>
+        <address>
+            <h4>contact</h4>  
+            <i>+1 315 369 5943</i>  
+        </address>
+        <div class="ryt-list">
                 <button class="nav-button">
                   <span>LOGIN</span>/<span>SIGNUP</span> 
                 </button>
-            </div>
+        </div>
     </div>
 
 </header>
 <main>
+
+    <!-- ======FIRST SECTION======= -->
+
+
     <section class="first-section">
         <div class="apointment-heading">
             <h2 class="heading">search doctor, make an appointment</h2>
@@ -51,11 +77,11 @@
         <div class="apointment-buttons">
                 <div>
                 <input class="search" type="text" placeholder="search location"/>
-                <p>based on your location</p>
+                <p class="appointment-text">based on your location</p>
                 </div>
                 <div>
                     <input class="locator" type="text" placeholder="search doctors, clinics, hospitals, diseases etc"/>
-                    <p>ex: dental or sugar</p>
+                    <p class="appointment-text">ex: dental or sugar</p>
                 </div>
                 <div>
                     <button class="header-button">
@@ -64,6 +90,10 @@
                 </div>
         </div>
     </section>
+
+    <!-- ======SECOND SECTION====== -->
+
+
     <section class="second-section"> 
         <h2 class="section-heading">what are you looking for?</h2>
         <div class="section-box">
@@ -81,6 +111,11 @@
             </div>
         </div>
     </section>  
+
+
+    <!-- =======THIRD SECTION========= -->
+
+
     <section class="third-section">
         <div class="clinic-header">
             <h2 class="clinic-heading">clinic and specialities</h2>
@@ -103,7 +138,11 @@
                 <p class="clinical-term">dentist</p>
             </div>
         </div>
-    </section>                  
+    </section>  
+    
+    <!-- =======FOURTH SECTION======== -->
+
+
     <section class="forth-section">
         <div class="section-content">
             <header>
@@ -126,9 +165,19 @@
                     <h3 class="profile-title">Sofia Brent</h3>
                     <p class="profile-basic">MBBS, MS-General Surgery, Mch-Urology</p>
                     <ul class="profile-list">
-                        <li>Lousina,USA</li>
-                        <li>Available on Fri, 22 mar</li>
-                        <li>$150-$250</li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Lousina,USA
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i>
+                            Available on Fri, 22 mar
+                        </li>
+                        <li>
+                            <i class="far fa-money-bill-alt"></i>
+                            $150-$250
+                            <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                        </li>
                     </ul>
                 
                     <div class="buttons">
@@ -143,9 +192,19 @@
                     <h3 class="profile-title">Ruby Perrin</h3>
                     <p class="profile-basic">MDS-Periodontology and Oral Implantalogy, BDS</p>
                     <ul class="profile-list">
-                        <li>Florida,USA</li>
-                        <li>Available on Fri, 22 mar</li>
-                        <li>$300-$1000</li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Florida,USA
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i>
+                            Available on Fri, 22 mar
+                        </li>
+                        <li>
+                            <i class="far fa-money-bill-alt"></i>
+                            $300-$1000
+                            <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                        </li>
                     </ul>
                 
                     <div class="buttons">
@@ -160,9 +219,19 @@
                     <h3 class="profile-title">Darren Elder</h3>
                     <p class="profile-basic">BDS, MS-Oral & Maxillofacial Surgery</p>
                     <ul class="profile-list">
-                        <li>Newyork,USA</li>
-                        <li>Available on Fri, 22 mar</li>
-                        <li>$50-$300</li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Newyork,USA
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i>
+                            Available on Fri, 22 mar
+                        </li>
+                        <li>
+                            <i class="far fa-money-bill-alt"></i>
+                            $50-$300
+                            <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+                        </li>
                     </ul>
                 
                     <div class="buttons">
@@ -173,6 +242,9 @@
             </div>
          </div>
     </section>
+
+    <!-- =======FIFTH SECTION========= -->
+    
     <section class="fifth-section">
         <figure>
             <img src="photos/389ad37182b22862cc747163aa14547e.png" alt="">
@@ -208,79 +280,87 @@
             </main>
         </div>
     </section>
-<section class="sixth-container">
-    <div class="blog-container">
-        <div class="blog-header">
-            <h2 class="blog-news">blogs and news</h2>
-            <p class="blog-prg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium veniam reiciendis blanditiis dolor.</p>
-        </div>
-        <div class="blog-profile">
-            <div class="ruby-card">
-                <div class="ruby-image"></div>
-                <div class="profile-wrapper">
-                    <div class="ruby-profile"></div>
-                        <div>Dr.Ruby Perrin</div>
-        </div>
-            <p>4 Dec 2019</p>
-        <div class="ruby-lower">
-            <h3 class="ruby-heading">doccure - making your clinic painless visits?</h3>
-            <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
-        </div>
-    </div>
-    
 
-<div class="ruby-card">
-    <div class="darren-image"></div>
-    <div class="profile-wrapper">
-    <div class="darren-profile"></div>
-    <div>Dr.Darren Elder</div>
-    </div>
-    <div>
-        <p> 3Dec 2019</p>
-    </div>
-    <div class="ruby-lower">
-        <h3 class="ruby-heading">What are benefits of online doctor looking?</h3>
-        <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
-    </div>
-</div>
-
-<div class="ruby-card">
-<div class="angel-image"></div>
-<div class="profile-wrapper">
-    <div class="angel-profile"></div>
-        <div>Dr.Deborah Angel</div>
-        </div>
-        <div>
-            <p>3 Dec 2019</p>
-        </div>
-        <div class="ruby-lower">
-            <h3 class="ruby-heading">Benefits of consulting with an online doctor</h3>
-            <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
-        </div>
-</div>
-
-<div class="ruby-card">
-    <div class="sofia-image"></div>
-            <div class="profile-wrapper">
-                    <div class="sofia-profile"></div>
-                    <p class="perrin">Dr. Sofia Brent</p>
+    <!-- =====SIXTH SECTION======= -->
+    <section class="sixth-container">
+        <div class="blog-container">
+            <div class="blog-header">
+                <h2 class="blog-news">blogs and news</h2>
+                <p class="blog-prg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium veniam reiciendis blanditiis dolor.</p>
             </div>
-        
+            <div class="blog-profile">
+                <div class="ruby-card">
+                    <div class="ruby-image"></div>
+                    <div class="profile-wrapper">
+                        <div class="ruby-profile"></div>
+                        <div class="perrin">Dr.Ruby Perrin</div>
+                    </div>
+                    <p class="card-date">
+                        <i class="far fa-clock"></i>
+                        4 Dec 2019
+                    </p>
+                    <div class="ruby-lower">
+                        <h3 class="ruby-heading">doccure - making your clinic painless visits?</h3>
+                        <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
+                    </div>    
+                </div>
+                <div class="ruby-card">
+                    <div class="darren-image"></div>
+                    <div class="profile-wrapper">
+                        <div class="darren-profile"></div>
+                        <div class="perrin">Dr.Darren Elder</div>
+                    </div>
+                    <p class="card-date">
+                        <i class="far fa-clock"></i>
+                        4 Dec 2019
+                    </p>
+                    <div class="ruby-lower">
+                        <h3 class="ruby-heading">doccure - making your clinic painless visits?</h3>
+                        <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
+                    </div>    
+                </div>
+                <div class="ruby-card">
+                    <div class="angel-image"></div>
+                    <div class="profile-wrapper">
+                        <div class="angel-profile"></div>
+                        <div class="perrin">Dr.Deborah Angel</div>
+                    </div>
+                    <p class="card-date">
+                        <i class="far fa-clock"></i>
+                        4 Dec 2019
+                    </p>
+                    <div class="ruby-lower">
+                        <h3 class="ruby-heading">doccure - making your clinic painless visits?</h3>
+                        <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
+                    </div>    
+                </div>
+                <div class="ruby-card">
+                    <div class="sofia-image"></div>
+                    <div class="profile-wrapper">
+                        <div class="sofia-profile"></div>
+                        <div class="perrin">Dr.Sofia Brient</div>
+                    </div>
+                    <p class="card-date">
+                        <i class="far fa-clock"></i>
+                        4 Dec 2019
+                    </p>
+                    <div class="ruby-lower">
+                        <h3 class="ruby-heading">doccure - making your clinic painless visits?</h3>
+                        <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
+                    </div>    
+                </div>
+            </div>
             <div>
-                <p>2 Dec 2019</p>
+                <button class="view-button">View All</button>
             </div>
-            <div class="ruby-lower">
-                <h3 class="ruby-heading">5 Great reasons to use an online doctor</h3>
-                <p class="ruby-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam?</p>
-            </div>
-</div>
-
-</div> 
- <div>
-     <button class="view-button">View All</button>
- </div>
-</section>
+        </div>
+    </section>
 </main>
+
+
+<!-- ============FOOTER========== -->
+
+
     <footer>
         <div class="footer-wrapper">
         <div class="footer-upper">
@@ -289,6 +369,23 @@
                   <img src="photos/doccure2.png" alt="text">
               </h2> 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, at.</p>
+              <Ul class="doccure-list">
+                  <li class="doccure-li">
+                    <i class="fab fa-facebook-f"></i> 
+                  </li>
+                  <li>
+                    <i class="fab fa-twitter"></i> 
+                  </li>
+                  <li>
+                    <i class="fab fa-linkedin-in"></i>
+                  </li>
+                  <li>
+                    <i class="fab fa-instagram"></i>
+                  </li>
+                  <li>
+                    <i class="fab fa-dribbble"></i>
+                  </li>
+              </Ul>
             </div>
             <div>
             <h2 class="footer-heading">for patients</h2>
@@ -303,7 +400,7 @@
                     login
                 </li>
                 <li>
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->
                     register
                 </li>
                 <li>
@@ -350,7 +447,10 @@
                        <a href="tel: +1 315 369 5943">+1 315 369 5943</a>
                    </li>
                    <li>
-                       <a href="mailto: doccure@example.com">doccure@example.com</a>
+                       <a href="mailto: doccure@example.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>   
+                            doccure@example.com
+                        </a>
                    </li>
                </ul>
             </div>
@@ -369,3 +469,27 @@
     <script src="all.min.js"></script>
 </body>
 </html>
+
+<i class="fas fa-check-circle verified"></i>
+<i class="fas fa-star filled"></i>
+<i class="fas fa-map-marker-alt"></i>
+<i class="far fa-clock"></i>
+<i class="far fa-money-bill-alt"></i>
+<i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin-in"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-dribbble"></i>
+<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M8 42V18L24.1 6L40 18V42H28.3V27.75H19.65V42ZM11 39H16.65V24.75H31.3V39H37V19.5L24.1 9.75L11 19.5ZM24 24.35Z"/></svg>
+
+
+
+
+
+
+    
+        
+
+</div>
+</div>
